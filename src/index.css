@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.max-width-content {
+  width: max-content !important;
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
+.height-1000px { 
+  height: 1000px;
+}
+
+.bg-custom-gray {
+  background-color: rgb(180, 185, 191);
+}
+
