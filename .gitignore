@@ -106,3 +106,5 @@ dist
 # dependencies
 /.pnp
 .pnp.js
+
+**/.DS_Store
