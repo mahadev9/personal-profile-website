@@ -8,5 +8,6 @@ export const STATIC_VALUES = {
   description1: 'I am a Computer Science Graduate Student at the University of Delaware.',
   intro: 'Hello',
   animationPath: '/lottie/coding.json',
-  experience: {}
+  experience: {},
+  greetingWords: ['Hello', 'Namaste', 'Bonjour', 'Hola', '👋🏻']
 }

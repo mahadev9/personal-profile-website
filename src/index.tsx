@@ -4,14 +4,49 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
-import HomePage from './Components/HomePage'
+import Introduction from './Components/Introduction'
+import {
+  createBrowserRouter,
+  RouterProvider
+} from 'react-router-dom'
+import ErrorPage from './Components/ErrorPage'
+import Experience from './Components/Experience'
+import Projects from './Components/Projects'
+import Education from './Components/Education'
+import ContactMe from './Components/ContactMe'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Introduction />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: 'experience',
+        element: <Experience />
+      },
+      {
+        path: 'projects',
+        element: <Projects />
+      },
+      {
+        path: 'education',
+        element: <Education />
+      },
+      {
+        path: 'contact',
+        element: <ContactMe />
+      }
+    ]
+  }
+])
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 )
 root.render(
   <React.StrictMode>
-    <HomePage />
+    <RouterProvider router={router} />
   </React.StrictMode>
 )
 

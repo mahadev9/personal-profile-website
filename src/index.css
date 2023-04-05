@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.main {
+  height: 100vh;
+  background: rgb(32,201,151);
+  background: radial-gradient(circle, rgba(32,201,151,1) 50%, rgba(0,128,128,1) 100%);
+}
+
 .no-margin {
   margin: 0 !important;
 }
@@ -20,19 +26,44 @@ code {
   padding: 0 !important;
 }
 
-.max-width-content {
-  width: max-content !important;
+.background-aquamarine {
+  background-color: #47E5BC;
 }
 
-.bg-teal {
-  background-color: teal;
+.roboto-regular-500 {
+  font-family: 'Roboto Slab', serif;
 }
 
-.height-1000px { 
-  height: 1000px;
+.caveat-cursive {
+  font-family: 'Caveat', cursive;
+  text-shadow: 1px 1px 2px pink;
 }
 
-.bg-custom-gray {
-  background-color: rgb(180, 185, 191);
+.typewriter p {
+  overflow: hidden;
+  border-right: .1em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret 1s infinite;
 }
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.fade-in {
+  transition: opacity 1.5s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
