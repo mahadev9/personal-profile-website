@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Header from './Header'
 import Lottie from 'lottie-react'
 import developerSkillsAnimation from '../assets/lottiefiles/99312-developer-skills.json'
 import { Container, Row, Col } from 'reactstrap'
@@ -32,7 +31,6 @@ export default function Introduction () {
 
   return (
     <div className='main d-flex flex-column'>
-      <Header />
       <Container>
         <div className='col'>
           <Row>
