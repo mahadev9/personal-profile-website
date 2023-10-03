@@ -71,7 +71,7 @@ h2 {
   font-weight: bold;
 }
 
-h3 {
+h3, h4 {
   color: #484848;
 }
 
@@ -354,7 +354,7 @@ b, strong {
 .timeline-info {
   display: inline-block;
   vertical-align: top;
-  max-width: 432px;
+  /* max-width: 432px; */
   margin-left: 6em;
 }
 .timeline-info small {
