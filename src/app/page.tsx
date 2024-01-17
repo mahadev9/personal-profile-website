@@ -1,6 +1,7 @@
 
 import { dancingScript } from "./fonts"
 
+
 export default function Home() {
   return (
     <>
