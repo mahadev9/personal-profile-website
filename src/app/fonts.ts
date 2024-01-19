@@ -1,7 +1,7 @@
 
-import { Dancing_Script } from 'next/font/google'
+import { Noto_Sans } from 'next/font/google'
 
-export const dancingScript = Dancing_Script({
+export const notoSans = Noto_Sans({
   subsets: ['latin'],
-  weight: '700',
+  weight: '400'
 })
