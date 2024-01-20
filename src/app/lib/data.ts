@@ -87,6 +87,7 @@ export const resumeData = {
       company: 'Electronics and Radar Development Establishment (LRDE), DRDO',
       location: 'Bengaluru, India',
       title: 'Trainee',
+      link: '',
       start: 'January 2020',
       end: 'May 2020',
       description: [
@@ -115,6 +116,7 @@ export const resumeData = {
         'C#',
         'Unity Engine',
       ],
+      link: '',
       start: 'September 2023',
       end: 'December 2023',
       description: [
