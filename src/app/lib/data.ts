@@ -1,26 +1,36 @@
 
 export const resumeData = {
   name: 'Mahadev Maitri',
+  aboutMe: '',
   school: [
     {
       name: 'University of Delaware',
       location: 'Newark, DE',
+      logo: '/UDMonogramC.jpg',
+      link: 'https://udel.edu',
       degree: 'Master of Science',
       major: 'Computer Science',
       gpa: '4.0',
       totalgpa: '4.0',
       start: '2022',
-      end: '2024'
+      end: '2024',
+      courses: [
+        'CISC 621: Introduction to Algorithms',
+        'CISC 684: Introduction to Machine Learning',
+      ],
     },
     {
       name: 'R. V. College of Engineering',
       location: 'Bengaluru, India',
+      logo: '/rvce_logo.png',
+      link: 'https://rvce.edu.in',
       degree: 'Bachelor of Engineering',
       major: 'Electronics and Communication Engineering',
       gpa: '7.97',
       totalgpa: '10',
       start: '2016',
-      end: '2020'
+      end: '2020',
+      courses: [],
     },
   ],
   experience: [
@@ -36,17 +46,6 @@ export const resumeData = {
         'Oversee the maintenance of all servers and manage development cycles of the application using Jenkins and Amazon EC2, ensuring smooth operations and continuous improvement.',
         'The project initiated to address challenges in government toilet desludging in slum areas. The focus is on efficiently managing toilet operations, facilities, and addressing user complaints to the BMC.',
         'Actively contributing under the VESIT College of Engineering and the Brihanmumbai Municipal Corporation (BMC). The project, in its developmental phase, has secured funding from State Bank of India and Star Union Daichi, the support from reputable institutions for Social Responsibility.',
-      ]
-    },
-    {
-      company: 'English Language Institute - University of Delaware',
-      location: 'Newark, DE',
-      title: 'Instructor',
-      start: 'August 2023',
-      end: 'December 2023',
-      description: [
-        'Teach CISC106: General Computer Science for Engineers to a class with more than 10 students, and also supervise my assistant for lab work with structured comprehensive syllabi and coursework.',
-        'Taught Python and MATLAB, incorporating instruction on fundamental libraries such as math and guided 3 projects on file reading as tour recommendation, cramer\'s rule for solving equations and any game using pygame library.',
       ]
     },
     {
@@ -356,7 +355,7 @@ export const techLogos = [
     name: 'Google Cloud Platform',
     logo: '/tech/Google_Cloud_logo.svg',
     alt: 'Google Cloud Platform Logo',
-    width: 90,
+    width: 120,
     height: 30,
   },
   {

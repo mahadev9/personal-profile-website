@@ -1,14 +1,14 @@
 
-import DetailResume from "./ui/detailResume"
-import Introduction from "./ui/introduction"
+import DetailResume from './ui/detailResume'
+import Introduction from './ui/introduction'
 
-export default function Home() {
+export default function Home () {
   return (
-    <div className="flex h-screen flex-col md:flex-row">
-      <div className="w-full flex-none md:w-80 p-4">
+    <div className='flex h-screen flex-col sm:flex-row'>
+      <div className='w-full flex-none sm:w-80 p-4 min-h-screen'>
         <Introduction />
       </div>
-      <div className="flex-grow p-4">
+      <div className='flex-grow p-4'>
         <DetailResume />
       </div>
     </div>

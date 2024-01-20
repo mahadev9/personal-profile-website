@@ -1,10 +1,25 @@
 
-import Link from "next/link";
+import Education from './education';
+import Experiences from './experience';
+import Extracurricular from './extracurricular';
+import Projects from './project';
 
-export default function Introduction() {
+export default function DetailResume() {
+
   return (
-    <div className="flex flex-col items-center p-32">
-      <h1 className="text-6xl text-center antialised">Coming Soon!</h1>
+    <div className='md:columns-2 xl:columns-3'>
+      <div id='education'>
+        <Education />
+      </div>
+      <div id='experience'>
+        <Experiences />
+      </div>
+      <div id='projects' className='mt-32'>
+        <Projects />
+      </div>
+      <div id='extracurricular'>
+        {/* <Extracurricular /> */}
+      </div>
     </div>
   )
 }
