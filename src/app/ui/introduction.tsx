@@ -38,7 +38,7 @@ export default function Introduction() {
         </Link>
         <Link href={'https://www.linkedin.com/in/mahadev-maitri/'}>
           <Image
-            src={'/Linkedin_icon.svg'}
+            src={'/LinkedIn_icon.svg'}
             alt={'Linkedin Profile'}
             width={30}
             height={30}
