@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import LinkImage from './LinkImage';
 
 export default function EducationCard(props: any) {
 
@@ -17,8 +18,15 @@ export default function EducationCard(props: any) {
     <>
       <div className='inline-flex justify-between w-full flex-wrap'>
         <div className='w-fit'>
-          <Link className='flex flex-row space-x-4' href={`${props.link}`}>
-            <h3 className='font-bold text-xl'>{props.name}</h3>
+          <Link className='flex flex-row space-x-4' target='_blank' href={`${props.link}`}>
+            <div className='flex flex-row hover:underline'>
+              <h3 className='font-bold text-xl'>{props.name}</h3>
+              <LinkImage
+                name={props.name}
+                alt={`link to ${props.name}'s website`}
+                className=''
+              />
+            </div>
             <Image
               className='h-fit'
               src={props.logo}
@@ -40,7 +48,7 @@ export default function EducationCard(props: any) {
       </div>
       {isModal ?
         <ul className='w-fit'>
-          { courses }
+          {courses}
         </ul>
         :
         <button className='mt-2 text-xs w-fit' onClick={handleClick}>

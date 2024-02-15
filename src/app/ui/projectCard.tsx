@@ -1,6 +1,7 @@
 
 
 import Link from 'next/link'
+import LinkImage from './LinkImage';
 
 export default function ProjectCard(props: any) {
 
@@ -17,8 +18,13 @@ export default function ProjectCard(props: any) {
     <>
       {
         props.link ?
-          <Link href={`${props.link}`} target='_blank'>
+          <Link href={`${props.link}`} target='_blank' className='flex flex-row hover:underline'>
             <h3 className='font-bold text-xl'>{props.title}</h3>
+            <LinkImage 
+              name={props.name}
+              alt={`link to ${props.name}'s website`}
+              className=''
+            />
           </Link>
           :
           <h3 className='font-bold text-xl'>{props.title}</h3>

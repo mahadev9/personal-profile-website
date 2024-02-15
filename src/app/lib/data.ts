@@ -17,6 +17,14 @@ export const resumeData = {
       courses: [
         'CISC 621: Introduction to Algorithms',
         'CISC 684: Introduction to Machine Learning',
+        'CISC 650: Computer Networks II',
+        'CISC 665: Introduction to Cybersecurity',
+        'CISC 672: Compiler Construction',
+        'CISC 681: Artificial Intelligence',
+        'CISC 849: Advanced Topics in Computer Application: Applied Game Theory',
+        'CPEG 673: Cloud Computing and Security',
+        'STAT 622: Statistical Network Analysis',
+        'CISC 889: Topics in Advanced Artificial Intelligence: Advanced Deep Learning',
       ],
     },
     {
@@ -39,13 +47,15 @@ export const resumeData = {
       location: 'Remote',
       title: 'Back-end Developer - Part Time',
       start: 'December 2022',
-      end: 'Present',
+      end: 'January 2024',
       link: 'https://swechchha.org',
       description: [
-        'Restructured data tables and converted them into a relational database, enhanced the codebase to ensure it is error-free and fail-safe, and introduced new features such as a payment system and a location-based search. Additionally, optimized Round-Trip Time (RTT) for the majority of request calls.',
-        'Oversee the maintenance of all servers and manage development cycles of the application using Jenkins and Amazon EC2, ensuring smooth operations and continuous improvement.',
-        'The project initiated to address challenges in government toilet desludging in slum areas. The focus is on efficiently managing toilet operations, facilities, and addressing user complaints to the BMC.',
-        'Actively contributing under the VESIT College of Engineering and the Brihanmumbai Municipal Corporation (BMC). The project, in its developmental phase, has secured funding from State Bank of India and Star Union Daichi, the support from reputable institutions for Social Responsibility.',
+        'Implemented comprehensive restructuring of data tables, transforming them into a relational database, resulting in streamlined data management and improved efficiency.',
+        'Enhanced the codebase to ensure error-free and fail-safe operation, while also introducing innovative features such as a payment system and a location-based search, enhancing user experience and functionality.',
+        'Optimized Round-Trip Time (RTT) for request calls, resulting in faster response times and improved overall performance of the application.',
+        'Successfully oversaw the maintenance of all servers and managed development cycles using Jenkins and Amazon EC2, ensuring seamless operations and facilitating continuous improvement.',
+        'Initiated a project aimed at addressing challenges in government toilet desludging in slum areas, focusing on efficient management of operations, facilities, and timely resolution of user complaints to the BMC.',
+        'Actively contributed to projects under the VESIT College of Engineering and the Brihanmumbai Municipal Corporation (BMC), securing funding from reputable institutions such as the State Bank of India and Star Union Daichi, highlighting commitment to social responsibility initiatives.'
       ]
     },
     {
@@ -55,8 +65,9 @@ export const resumeData = {
       start: 'August 2023',
       end: 'December 2023',
       description: [
-        'Teach CISC106: General Computer Science for Engineers to a class with more than 10 students, and also supervise my assistant for lab work with structured comprehensive syllabi and coursework.',
-        'Taught Python and MATLAB, incorporating instruction on fundamental libraries such as math and guided 3 projects on file reading as tour recommendation, cramer\'s rule for solving equations and any game using pygame library.',
+        'Successfully instructed a class of over 10 students in CISC106: General Computer Science for Engineers, delivering structured syllabi and coursework to facilitate comprehensive learning.',
+        'Provided hands-on supervision and guidance to lab assistants, ensuring effective execution of lab work and reinforcing theoretical concepts taught in class.',
+        'Proficiently taught Python and MATLAB, integrating instruction on fundamental libraries such as math, and facilitated the completion of three projects focused on practical applications, including file reading for tour recommendation, Cramer’s rule for equation solving, and game development utilizing the pygame library.'
       ]
     },
     {
@@ -66,7 +77,7 @@ export const resumeData = {
       start: 'August 2023',
       end: 'August 2023',
       description: [
-        'Supported UD students and professors with issues related to Wi-Fi, scantrons, any UD software, and also fixed hardware issues with personal laptops.',
+        'Provided comprehensive technical support to UD students and professors, resolving issues related to Wi-Fi connectivity, scantrons, UD software, and personal laptop hardware, ensuring uninterrupted access to essential resources and optimal functionality for academic pursuits.',
       ]
     },
     {
@@ -76,13 +87,11 @@ export const resumeData = {
       start: 'July 2020',
       end: 'July 2022',
       description: [
-        'Designed and developed dynamic User Interfaces using ReactJs and Redux, aligning closely with business requirements. Delivered comprehensive demos to the Business Team upon completion, showcasing the functionality and features implemented.',
-        'Enhanced front-end microservice functionality by optimizing page loading times and implementing advanced data management strategies using Redux. Collaborated with the team to ensure a more efficient and responsive user interface in the Integrated Eligibility (IE) project, contributing to overall project success during a year engagement.',
-        'Led the execution of an end-to-end functional regression testing suite using Robot Framework and conducted performance testing of REST APIs using JMeter. Developed expertise in handling complex features, becoming the go-to person for specific challenges. Ensured the quality and reliability of development servers in the Optum Medicaid Management Services (OMMS) project by executing and analyzing all test suites twice weekly for a year.',
+        'Orchestrated the creation and refinement of User Interfaces utilizing ReactJs and Redux, tailored to meet precise business requirements, culminating in comprehensive demos to the Business Team that effectively showcased implemented functionalities and features.',
+        'Spearheaded optimization efforts for front-end microservice functionality, significantly improving page loading times and implementing advanced data management strategies through Redux, thereby enhancing the efficiency and responsiveness of the user interface within the Integrated Eligibility (IE) project, contributing significantly to project success over a one-year engagement.',
+        'Directed the implementation of an end-to-end functional regression testing suite utilizing Robot Framework and conducted rigorous performance testing of REST APIs with JMeter, establishing expertise in tackling complex features and earning recognition as the go-to authority for specific challenges. Ensured the quality and reliability of development servers within the Optum Medicaid Management Services (OMMS) project by executing and analyzing all test suites bi-weekly for a year, ensuring robustness and reliability of the system.'
       ]
     },
-  ],
-  researchExperience: [
     {
       company: 'Electronics and Radar Development Establishment (LRDE), DRDO',
       location: 'Bengaluru, India',
@@ -91,10 +100,11 @@ export const resumeData = {
       start: 'January 2020',
       end: 'May 2020',
       description: [
-        'Designed a state-of-the-art solution for Automatic Target Recognition of ships using Deep Learning algorithms. Constructed a GAN framework (2.87M parameters) with the aid of CNNs to extract features such as the amplitude of signals, mast, and orientation, thereby increasing the number of ISAR images of ships in the dataset.',
-        'Employed a transfer learning method for the classification of ships, leveraging the MobileNetV2 network, achieving an accuracy of 89.6%.',
-        'Generated the original dataset of ISAR images using ANSYS Electromagnetics SBR+ with 3-D models of ships, ensuring an accurate representation of ship features.',
-        'Published a paper on "Classification of Ships using ISAR Images with a Combined Deep Transfer Learning and GAN Processing Framework" in the International Journal of Engineering Research \& Technology (IJERT), Volume 10, Issue 10 (October 2021).',
+        'Pioneered the development of an advanced Automatic Target Recognition solution for ships utilizing cutting-edge Deep Learning algorithms, resulting in enhanced accuracy and efficiency in ship identification.',
+        'Engineered a sophisticated GAN framework with CNNs to effectively extract features from ISAR images, significantly expanding the dataset and improving the accuracy of ship recognition.',
+        'Implemented transfer learning techniques leveraging the MobileNetV2 network for ship classification, achieving an impressive accuracy rate of 89.6%, demonstrating proficiency in leveraging state-of-the-art methodologies for superior results.',
+        'Produced a comprehensive dataset of ISAR images utilizing ANSYS Electromagnetics SBR+ with 3-D ship models, ensuring the authenticity and reliability of the dataset for accurate representation of ship features.',
+        'Authored and published a research paper titled "Classification of Ships using ISAR Images with a Combined Deep Transfer Learning and GANProcessing Framework" in the esteemed International Journal of Engineering Research & Technology (IJERT), contributing valuable insights to the field of ship classification and recognition.'
       ],
     },
     {
@@ -104,8 +114,8 @@ export const resumeData = {
       start: 'June 2019',
       end: 'July 2019',
       description: [
-        'Enhanced inference timing and frames per second for input video streams by implementing sequence-by-sequence batch augmentation of video frames and reducing the computational complexity of the semantic segmentation algorithm.',
-        'Improved the overall performance of the semantic segmentation algorithm by reducing the processing time and increasing the accuracy of video segmentation.',
+        'Significantly accelerated inference timing and frames per second for input video streams through the implementation of sequence-by-sequence batch augmentation of video frames, resulting in enhanced efficiency and responsiveness of the system.',
+        'Optimized the performance of the semantic segmentation algorithm by reducing processing time and increasing segmentation accuracy, leading to improved overall performance and reliability of video segmentation processes.'
       ],
     }
   ],
@@ -120,7 +130,8 @@ export const resumeData = {
       start: 'September 2023',
       end: 'December 2023',
       description: [
-        'Designed a Nash Equilibrium, a game-theoretical approach aimed at maximizing revenue generation for poultry farms. This innovative strategy involves optimizing various attributes in the management of depopulation through a mixed reality simulation, which also includes training new personnel. These attributes, including but not limited to, timing of vaccination, depopulation, and risk management, contribute to the overall effectiveness of the approach.',
+        'Developed a pioneering Nash Equilibrium strategy to maximize revenue generation for poultry farms, utilizing game-theoretical principles to optimize management practices such as timing of vaccination, depopulation, and risk management.',
+        'Implemented a mixed reality simulation to train personnel and simulate various scenarios, fostering enhanced decision-making skills and contributing to the overall effectiveness and profitability of the approach.'
       ],
     },
     {
@@ -131,10 +142,12 @@ export const resumeData = {
         'HTML',
         'CSS',
       ],
+      link: 'sudoku.maitri.pro',
       start: 'February 2023',
       end: 'May 2023',
       description: [
-        'Built a Flask application for solving Sudoku puzzles using the AC3 algorithm and Backtracking search algorithm, featuring predefined puzzles and custom input. Implemented step-by-step solutions with color-coded clarity and successfully tracked and managed failed values using binary constraints in the AC-3 algorithm.',
+        'Developed a user-friendly Flask application for solving Sudoku puzzles, integrating advanced algorithms such as AC3 and Backtracking search, enabling users to tackle both predefined puzzles and custom inputs with ease.',
+        'Implemented step-by-step solutions with color-coded clarity and efficiently managed failed values using binary constraints in the AC-3 algorithm, enhancing user experience and facilitating successful puzzle resolution.'
       ],
     },
     {
@@ -149,8 +162,8 @@ export const resumeData = {
       start: 'September 2022',
       end: 'December 2022',
       description: [
-        'Collaborated with a team of three to develop neural networks for predicting cryptocurrency prices through an ablation study. Conducted experiments on different numbers of LSTM layers and 1D-CNN with LSTM layers, using a range of hyperparameters.',
-        'Based on analysis of data collected from Binance Data Vision, we determined that a single layer of LSTM with 128 units produced the most accurate predictions. Additionally, we found that the 1D-CNN with LSTM architecture could be effective in cases where additional data input streams, such as current news, are available.',
+        'Contributed to a collaborative effort with a team of three in developing neural networks aimed at predicting cryptocurrency prices, employing an ablation study methodology to refine model architectures and hyperparameters.',
+        'Utilized data analysis from Binance Data Vision to identify optimal configurations, determining that a single layer of LSTM with 128 units yielded the most accurate predictions. Additionally, recognized the potential effectiveness of the 1D-CNN with LSTM architecture, particularly in scenarios where supplementary data streams, such as current news, are accessible, thereby informing strategic decision-making for cryp- tocurrency trading.'
       ],
     },
     {
@@ -163,7 +176,8 @@ export const resumeData = {
       start: 'August 2018',
       end: 'November 2018',
       description: [
-        'Developed an android application to streamline the attendance-taking process for a class, leveraging image recognition technology to automatically mark attendance based on facial recognition. Integrated the Azure cognitive services Face API with the application to accurately identify matching faces registered for the class.',
+        'Engineered an Android application to optimize the attendance-taking process for classes, implementing image recognition technology to automate attendance tracking through facial recognition.',
+        'Seamlessly integrated the Azure cognitive services Face API with the application, ensuring precise identification of registered individuals, thereby enhancing efficiency and accuracy in attendance management.'
       ],
     },
     {
@@ -178,7 +192,8 @@ export const resumeData = {
       start: 'August 2018',
       end: 'November 2018',
       description: [
-        'Addressing the issue of common plant diseases at an early stage to inform farmers at the right time by designing a state-of-the-art solution using a Convolutional Neural Network to detect diseases and suggest appropriate weedicides. This project was shared with a team of two and was responsible for the collection and pre-processing of the dataset, and building the classifier using CNN.',
+        'Spearheaded the development of an innovative solution to combat common plant diseases, utilizing a Convolutional Neural Network (CNN) to detect diseases early and provide timely recommendations for weedicide application.',
+        'Collaborated with a team of two to collect and preprocess the dataset, and constructed the classifier using CNN architecture, contributing to improved agricultural practices and increased crop yield through disease management.'
       ],
     },
   ],
@@ -210,7 +225,7 @@ export const resumeData = {
   ],
   volunteerExperience: [
     {
-      link: '',
+      link: 'https://sites.udel.edu/igsa/',
       description: [
         'Served as the Website Manager for IGSA, overseeing the comprehensive redesign of the WordPress site. Implemented enhancements to showcase upcoming events, student information and news, and curated photos and videos captured during events. Additionally, took a leadership role in planning and executing various events hosted by IGSA.',
       ],

@@ -65,6 +65,14 @@ body {
   }
 }
 
-@media (max-width: 640px) {
-  
-}
+/* @media (max-width: 1279px) and (min-width: 768px) {
+  .margin-research {
+    margin-top: 600px;
+  }
+} */
+
+/* @media (min-width: 1280px) {
+  .margin-project {
+    margin-top: 600px;
+  }
+} */

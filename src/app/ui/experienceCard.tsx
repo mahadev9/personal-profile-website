@@ -1,5 +1,6 @@
 
 import Link from 'next/link'
+import LinkImage from './LinkImage';
 
 export default function ExperienceCard(props: any) {
 
@@ -16,8 +17,13 @@ export default function ExperienceCard(props: any) {
     <>
       {
         props.link ?
-          <Link href={`${props.link}`} target='_blank'>
+          <Link href={`${props.link}`} target='_blank' className='flex flex-row hover:underline'>
             <h3 className='font-bold text-xl'>{props.company}</h3>
+            <LinkImage 
+              name={props.name}
+              alt={`link to ${props.name}'s website`}
+              className=''
+            />
           </Link>
           :
           <h3 className='font-bold text-xl'>{props.company}</h3>
@@ -27,7 +33,7 @@ export default function ExperienceCard(props: any) {
       <p className='text-gray-500'>{`${props.start} - ${props.end}`}</p>
       {isModal ?
         <ul className='w-fit'>
-          { description }
+          {description}
         </ul>
         :
         <button className='mt-2 text-xs w-fit' onClick={handleClick}>

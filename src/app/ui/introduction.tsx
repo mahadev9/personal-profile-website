@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notoSans } from '../fonts';
 import Image from 'next/image';
 import { techLogos, resumeData } from '../lib/data';
+import Extracurricular from './extracurricular';
 
 export default function Introduction() {
   const logos = techLogos.map((tech) => {
@@ -63,6 +64,9 @@ export default function Introduction() {
             return <div key={index} className={`self-center`}>{logo}</div>
           })
         }
+      </div>
+      <div id='extracurricular'>
+        {/* <Extracurricular /> */}
       </div>
     </div>
   )

@@ -1,7 +1,6 @@
 
 import Education from './education';
 import Experiences from './experience';
-import Extracurricular from './extracurricular';
 import Projects from './project';
 
 export default function DetailResume() {
@@ -14,11 +13,8 @@ export default function DetailResume() {
       <div id='experience'>
         <Experiences />
       </div>
-      <div id='projects' className='mt-32'>
+      <div id='projects' className='margin-project'>
         <Projects />
-      </div>
-      <div id='extracurricular'>
-        {/* <Extracurricular /> */}
       </div>
     </div>
   )

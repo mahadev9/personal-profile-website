@@ -48,22 +48,6 @@ export default function Experiences() {
     )
   });
 
-  const rExps = resumeData.researchExperience.map((rExp) => {
-    return (
-      <ExperienceCard
-        company={rExp.company}
-        location={rExp.location}
-        title={rExp.title}
-        start={rExp.start}
-        end={rExp.end}
-        link={rExp.link}
-        description={rExp.description}
-        isModal={false}
-        openModal={openModal}
-      />
-    )
-  });
-
   return (
     <div>
       <h1 className='section-heading'>Experience</h1>
@@ -72,16 +56,6 @@ export default function Experiences() {
           return (
             <div className='mt-4 bg-white shadow-md bg-clip-border rounded-xl h-fit p-6 m-2' key={index}>
               {exp}
-            </div>
-          )
-        })
-      }
-      <h1 className='section-heading'>Research Experience</h1>
-      {
-        rExps.map((rExp, index) => {
-          return (
-            <div className='details-card' key={index}>
-              {rExp}
             </div>
           )
         })
