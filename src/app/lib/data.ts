@@ -43,9 +43,9 @@ export const resumeData = {
   ],
   experience: [
     {
-      company: 'Swechchha',
+      company: 'Vivekanand Education Society\'s Institute of Technology',
       location: 'Remote',
-      title: 'Back-end Developer - Part Time',
+      title: 'Back-end Developer - Freelance',
       start: 'December 2022',
       end: 'January 2024',
       link: 'https://swechchha.org',
