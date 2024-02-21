@@ -54,7 +54,7 @@ export default function Introduction() {
           />
         </Link>
       </div>
-      <Link href='/resume.pdf' target='_blank' className='download-resume mt-12 text-xl text-center font-semibold rounded-md'>
+      <Link href='/Mahadev-Resume.pdf' target='_blank' className='download-resume mt-12 text-xl text-center font-semibold rounded-md'>
         Download Resume
       </Link>
       <div id='tech_icons' className='flex flex-wrap space-x-4 space-y-4 justify-center'>
