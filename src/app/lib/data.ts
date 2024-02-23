@@ -142,7 +142,7 @@ export const resumeData = {
         'HTML',
         'CSS',
       ],
-      link: 'sudoku.maitri.pro',
+      link: 'https://sudoku.maitri.pro',
       start: 'February 2023',
       end: 'May 2023',
       description: [

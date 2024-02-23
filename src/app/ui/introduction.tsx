@@ -37,7 +37,7 @@ export default function Introduction() {
             height={30}
           />
         </Link>
-        <Link href={'https://www.linkedin.com/in/mahadev-maitri/'}>
+        <Link href={'https://www.linkedin.com/in/mahadev-maitri/'} target='_blank'>
           <Image
             src={'/LinkedIn_icon.svg'}
             alt={'Linkedin Profile'}
@@ -45,7 +45,7 @@ export default function Introduction() {
             height={30}
           />
         </Link>
-        <Link href={'https://github.com/mahadev9'}>
+        <Link href={'https://github.com/mahadev9'} target='_blank'>
           <Image
             src={'/github-mark/github-mark.svg'}
             alt={'Linkedin Profile'}
